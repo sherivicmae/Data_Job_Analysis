@@ -51,3 +51,6 @@ FROM 'C:\Users\Sherivic\Data_Job_Analysis\csv_files\skills_job_dim.csv' WITH (
         DELIMITER ',',
         ENCODING 'UTF8'
     );
+select *
+from january_jobs
+limit 5;
